@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome|Dashboard</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		tr,td,th{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid text-center">
+		<br>
+		<div class="alert alert-success">
+			<h1 class="alert-heading">Welcome {{user}}!</h1>
+		</div><br>
+
+		<div style="text-align: center;margin: auto; width: 70%">
+			<table class="table">
+			  <thead>
+			    <tr>
+			      <th>SNo</th>
+			      <th>New State</th>
+			      <th>Time</th>
+			      <th></th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			   {% for row in rows %}
+	            <tr class="table-light">
+	               <td>{{row["id"]}}</td>
+	               <td>{{row["new_state"]}}</td>
+	               <td> {{ row["timestamps"]}}</td>
+	             </tr>
+		        {% endfor %}
+			  </tbody>
+			</table>
+		</div>
+		<a href="/clearData"><input type="submit" class="btn btn1 btn-primary" value="Clear Data" style="width:20%"></a>
+	</div>
+</div><br><br>
+
+</body>
+</html>
