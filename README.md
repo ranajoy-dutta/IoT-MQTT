@@ -1,9 +1,7 @@
 # IoT - MQTT using Python
-> ### This is a Prototype model for IoT. This model is suitable for any IoT device that supports Python. The system can be integrated 
-to send data from the device to the cloud using MQTT protocol, which is a lightweight protocol for machine to machine communication.
-On the other end, the system can be integrated for receiving the data over cloud for further analysis.<br/><br/>
+## This is a Prototype model for IoT. This model is suitable for any IoT device that supports Python. The system can be integrated to send data from the device to the cloud using MQTT protocol, which is a lightweight protocol for machine to machine communication.<br/>On the other end, the system can be integrated for receiving the data over cloud for further analysis.<br/><br/>
  
-> How the system works :<br/>
+> ### How the system works :<br/>
     The sender.py file is flashed into any micro controller like Arduino/Raspberry/Onion.<br/>
     The sender.py file is responsible for sending/publishing the data/values/parameter as a payload to cloud/broker.
     This data can collection of data fetched from the sensors. Broker is responsible for forwarding the same to all the
@@ -11,15 +9,15 @@ On the other end, the system can be integrated for receiving the data over cloud
     payload/data, it can manage this data as per its needs like for just storing into data or for further analysis and
     machine learning and many more purposes.<br/><br/>
 
-> ### FILE LIST :-<br/>
-    IoT1 <br/>
-      |- templates<br/>
-           >- index.html<br/>
-      |- dbSetup.py<br/>
-      |- README.txt<br/>
-      |- mydb.db<br/>
-      |- receiver.py<br/>
-      |- sender.py<br/><br/>
+> ### FILE LIST :-
+    IoT1 
+      |- templates
+           >- index.html
+      |- dbSetup.py
+      |- README.md
+      |- mydb.db
+      |- receiver.py
+      |- sender.py
 
 > Dependencies in receiving server :-<br/>
     python v3<br/>
