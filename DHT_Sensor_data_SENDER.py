@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """
+This file is responsible for collecting humidity and temperature from DHT-11 sensor at regular intervals and send the same 
+to MQTT broker in json format.
 
 How this file works :
     sender.py is flashed into the micro controller along with the required code for fetching data from necessary sensors.
