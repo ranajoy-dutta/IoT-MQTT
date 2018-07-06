@@ -7,6 +7,13 @@
 		tr,td,th{
 			text-align: center;
 		}
+		sub_container{
+			margin: auto;
+			width: 70%;
+		}
+		s_btn{
+			width:20%;
+		}
 	</style>
 </head>
 <body>
@@ -16,7 +23,7 @@
 			<h1 class="alert-heading">Welcome {{user}}!</h1>
 		</div><br>
 
-		<div style="text-align: center;margin: auto; width: 70%">
+		<div class = "text-center sub_container">
 			<table class="table">
 			  <thead>
 			    <tr>
@@ -37,7 +44,7 @@
 			  </tbody>
 			</table>
 		</div>
-		<a href="/clearData"><input type="submit" class="btn btn1 btn-primary" value="Clear Data" style="width:20%"></a>
+		<a href="/clearData"><input type="submit" class="btn btn1 btn-primary s_btn" value="Clear Data"></a>
 	</div>
 </div><br><br>
 
