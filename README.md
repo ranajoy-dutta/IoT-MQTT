@@ -38,4 +38,5 @@
 > You can also create your own private Broker for MQTT by using the software provided by hive at https://www.hivemq.com/downloads/
 <br/><br/><br/>
 
-### The project is still under its initial stages of development and we welcome any kind of suggestions or improvements.
+### The project is still under its initial stages of development and we welcome any kind of suggestions or improvements. 
+Project being improved by me and [@anantkaushik](https://github.com/anantkaushik)
