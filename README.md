@@ -18,7 +18,7 @@
       |- mydb.db
       |- receiver.py
       |- sender.py
-
+ 
 ### Dependencies in receiving server :-<br/>
 >    python v3<br/>
     flask<br/>
