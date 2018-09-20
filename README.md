@@ -22,7 +22,7 @@
 ### Dependencies in receiving server :-<br/>
 >    python v3<br/>
     flask<br/>
-    flask-mqtt<br/>
+    flask-mqtt<br/> 
     flask-socketio<br/>
     eventlet<br/><br/>
 
